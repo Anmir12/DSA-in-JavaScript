@@ -6,16 +6,16 @@
  ****
  */
 
-function Pattern1(n) {
-  for (let row = 1; row <= n; row++) {
-    let str = "";
-    for (let col = 1; col <=n; col++) {
-        str+= "*";
-    }
-    console.log(str);
-  }
-}
+ function Pattern1(number) {
+   for (let row = 0; row < number; row++) {
+     let str = "";
+     for (let col = 0; col < number; col++) {
+       str += "*";
+     }
+     console.log(str);
+   }
+ }
 
-Pattern1(3);
-Pattern1(6);
+ Pattern1(3);
+ Pattern1(6);
 
