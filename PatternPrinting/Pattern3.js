@@ -8,19 +8,19 @@
 
 */
 
-function Pattern3 (n){
-  for(let row = 1; row <=n ; row++){
-    let str = '';
-    let spaces = n-row;
-    for(let col = 1; col <=spaces; col++){
-        str+= " ";
+function Pattern3(n) {
+  for (let row = 0; row < n; row++) {
+    let str = "";
+    let spaces = n - row;
+    for (let i = 0; i <= spaces; i++) {
+      str += " ";
     }
     let stars = row;
-    for(let col = 1; col<=stars ; col++){
-        str+="*"
+    for (let k = 0; k <= stars; k++) {
+      str += "*";
     }
     console.log(str);
   }
 }
 
-Pattern3(6);
+Pattern3(10);
