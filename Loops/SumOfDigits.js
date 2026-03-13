@@ -5,17 +5,12 @@
 const sumOfNumbers = (num) => {
   let sum = 0;
   do {
-     let remainder = Math.floor(num % 10);  // reaminder => 8,7,6,5,4,3
-      num = Math.floor(num / 10);   //num => 345678/10 => 34567 =>3456 =>345 => 34 => 3 =>0
-      sum = sum + remainder;   // 0+8+7=6+5+4+3 = 33
- 
+    let remainder = Math.floor(num % 10); // reaminder => 8,7,6,5,4,3
+    num = Math.floor(num / 10); //num => 345678/10 => 34567 =>3456 =>345 => 34 => 3 =>0
+    sum = sum + remainder; // 0+8+7=6+5+4+3 = 33
   } while (num > 0);
 
   return sum;
 };
 
 console.log(sumOfNumbers(2597654103525454));
-
-
-
-
