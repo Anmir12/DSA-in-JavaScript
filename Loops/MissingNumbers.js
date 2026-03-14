@@ -6,8 +6,15 @@ const missingNumbers = (num) =>{
     if(num<0){
         return num;
     }
-    return num.length * (num.length + 1) / 2 - num.reduce((acc,curr)=> acc + curr);
- 
+   let sumOfArray = num.length * (num.length + 1) /2
+
+   let sum = 0;
+
+   for(let i=0; i<num.length; i++){
+    sum = sum + num[i]
+   }
+
+   return sumOfArray - sum;
 }
 
 console.log(missingNumbers([0,1,2,4]));
