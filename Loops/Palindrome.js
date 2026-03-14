@@ -8,15 +8,17 @@
 
 
 const isPalindrome = (num) =>{
-    let reversed = 0, copyNum = num;
-    while(copyNum>0){
-        let remainder = copyNum % 10;
-         reversed =  reversed*10 + remainder;
-         copyNum = Math.floor(copyNum/ 10);
+    if(num===0){
+        return;
     }
-    
-    return num === reversed;
-
+     let rev = 0; 
+     let numCopy = num;
+    while(num>0){
+        rem = Math.floor(num%10);
+        num = Math.floor(num/10);
+        rev = rev * 10 + rem
+    }
+   return rev === numCopy;
 }
 
 console.log(isPalindrome(786687));
