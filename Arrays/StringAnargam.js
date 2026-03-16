@@ -26,23 +26,23 @@
 //but in Interviews We Maybe Need To Write The Logic Without Using Inbuilt JS Methods
 
 
-function isAnargam(string1,string2){
-    if(string1.length!==string2.length){
-        return false;
-    }           
-    counter ={}
-    for(let letters of string1){
-        counter[letters]=((counter[letters] || 0)+1)
-        // console.log(counter[letters])
+function isAnargam(string1, string2) {
+  if (string1.length !== string2.length) {
+    return false;
+  }
+  counter = {};
+  for (let letters of string1) {
+    counter[letters] = (counter[letters] || 0) + 1;
+    // console.log(counter[letters])
+  }
+  console.log(counter);
+  for (let items of string2) {
+    if (!counter[items]) {
+      return false;
     }
-    console.log(counter)
-    for(let items of string2){
-       if(!counter[items]){
-        return false;
-       }
-        counter[items]-=1
-    }
-    return true;
+    counter[items] -= 1;
+  }
+  return true;
 }
 
 let check1 =isAnargam("anmeer","ramene")
