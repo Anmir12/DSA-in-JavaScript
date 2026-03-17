@@ -12,25 +12,22 @@
 
 //............... Code Solution................//
 
-function sumZeroImproved(array){
-    let left =0;
-    let right=array.length-1;
-    while(left<right){
-        sum=array[left]+array[right];
-       if(sum===0){
-        return [array[left],array[right]];
-    }
-    else if(sum>0){
-        right--;    
-        }
-    else {
+function sumZeroImproved(array) {
+  let left = 0;
+  let right = array.length - 1;
+  while (left < right) {
+    sum = array[left] + array[right];
+    if (sum === 0) {
+      return [array[left], array[right]];
+    } else if (sum > 0) {
+      right--;
+    } else {
       left++;
     }
   }
 }
 
-const result = sumZeroImproved([-10,-8,-6,-4,-2,3,4,7,9,11]);
-console.log(result)
-
+const result = sumZeroImproved([-10, -8, -6, -4, -2, 3, 4, 7, 9, 11]);
+console.log(result);
 
 //Now,The Time Complexity Reduced From O(n^2) to O(n)
