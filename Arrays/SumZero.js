@@ -6,19 +6,19 @@
 //We Create A Nested Loop Also For Comparing The Values of uppper Loop to lower loop
 // We Check For The Condition if The Sum is Equal To Zero We Return The pair in lower loop
 
-function sumZero(array){
-    for(number of array){
-        // console.log(number)
-        for(let j=number+1;j<array.length;j++){
-            if(number + array[j] ===0){
-                console.log("the Pair Of Sumzeros Are: ",[number,array[j]])
-                // return [number,array[j]]
-            }
-        }
-
+function sumZero(array) {
+  for (let value1 of array) {
+    for (let value2 of array) {
+      if (value1 + value2 === 0) {
+        console.log("the sum of pair which equals to zero is", [
+          value1,
+          value2,
+        ]);
+      }
     }
+  }
 }
-const result=sumZero([-10,-8,-6,-4,-2,3,5,7,8,10])
+const result = sumZero([-10, -8, -6, -4, -2, 3, 5, 7, 8, 10]);
 console.log(result)
 
 
