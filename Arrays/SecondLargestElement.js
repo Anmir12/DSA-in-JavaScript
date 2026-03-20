@@ -8,7 +8,9 @@ function secondLargest(arr){
   let secondLargest =-Infinity;
 
   for(let i=0; i<arr.length;i++){
-
+      if(arr.length <= 1){
+        return -1;
+      }
     if(arr[i] > largest){
         secondLargest = largest;
         largest = arr[i]
@@ -21,7 +23,7 @@ function secondLargest(arr){
   return secondLargest;
 }
 
-const array = [2,7,3,5,9,13,12,4,6,15];
+const array = [2,3];
 
 const result = secondLargest(array);
 console.log(result)
