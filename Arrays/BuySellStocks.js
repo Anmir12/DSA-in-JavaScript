@@ -4,20 +4,23 @@
 
 // if there is no possibilty of a profit for any day then return 0 ex:- [9,7,5,4,2,1], here no matter the day which you bought there is no profit
 
+function maxProfitToSellStocks(arr) {
+  let minVal = arr[0];
+  let maxProfit = 0;
 
-function maxProfitToSellStocks(arr){
- let minVal = arr[0];
- let maxProfit =0;
-
- for(let i=1; i<arr.length; i++){
-
- }
-
- return maxProfit;
+  for (let i = 1; i < arr.length; i++) {
+    if (arr[i] < minVal) {
+      minVal = arr[i];
+    }
+    if (arr[i] - minVal > maxProfit) {
+      maxProfit = arr[i] - minVal;
+    }
+  }
+  return maxProfit;
 }
 
-const stocksArray = [7,1,3,5,6,4];
+const stocksArray = [7, 1, 3, 5, 6, 4, 8, 2];
 
-const result =maxProfitToSellStocks(stocksArray);
+const result = maxProfitToSellStocks(stocksArray);
 
 console.log(result);
