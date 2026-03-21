@@ -5,13 +5,24 @@
 //for example:- (0,n-length-1) ,(1,n.length-2),(2,n.length-3) so it will be likw (i[0], n.length-1-i) ,(i[1], n.length-1-i), (i[2], n.length-1-i)
 
 function ReverseString(str){
-
-for(let i=0 ; i<str.length; i++){
-    
-    let temp = str[i]
+ let length = str.length;
+ let temp;
+ let halfLen = Math.floor(length/2)
+for(let i=0 ; i<halfLen; i++){
+    temp = str[length-1-i];
+     str[length-1-i] =str[i];
+    str[i] = temp;
+}
+return str;
 }
 
-}
+const stringArr1 = ["h","e","l","l","o"];
+const stringArr2 = ["A","n","m","i","r"];
 
-const stringArr = ["h","e","l","l","o"]
-const result = ReverseString(stringArr)
+const result1 = ReverseString(stringArr1);
+const result2 = ReverseString(stringArr2);
+
+
+console.log(result1)
+console.log(result2)
+
