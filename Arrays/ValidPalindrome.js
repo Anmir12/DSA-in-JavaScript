@@ -20,3 +20,44 @@
 // Output: true
 // Explanation: s is an empty string "" after removing non-alphanumeric characters.
 // Since an empty string reads the same forward and backward, it is a palindrome.
+
+
+function ValidPalinDrome(str){
+  let strCopy = str;
+
+  let left =0
+
+  let right = str.length - 1 ;
+
+  while(left < right){
+    
+    if(str[left].toLowerCase() !== str[right].toLowerCase()){
+        return false;
+    }
+
+    left ++;
+    right --;
+  }
+
+  return strCopy === str;
+
+
+}
+
+
+const strArr1 =["A","N","N","A"];
+
+const strArr2 =["A","N","M","I","R"];
+
+const strArr3 =["A","N","n","A"];
+
+
+const result1 = ValidPalinDrome(strArr1);
+const result2 = ValidPalinDrome(strArr2);
+const result3 = ValidPalinDrome(strArr3);
+
+
+console.log(result1,result2,result3)
+
+
+
