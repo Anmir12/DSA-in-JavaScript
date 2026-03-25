@@ -23,6 +23,9 @@
 
 
 function ValidPalinDrome(str){
+    if(!str.length){
+        return false;
+    }
   let strCopy = str;
 
   let left =0
@@ -49,7 +52,7 @@ const strArr1 =["A","N","N","A"];
 
 const strArr2 =["A","N","M","I","R"];
 
-const strArr3 =["A","N","n","A"];
+const strArr3 =[""];
 
 
 const result1 = ValidPalinDrome(strArr1);
