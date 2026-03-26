@@ -54,13 +54,18 @@ const strArr2 =["A","N","M","I","R"];
 
 const strArr3 =[""];
 
+const strArr4 =["A","N","M","M","N","A"];
+
+
 
 const result1 = ValidPalinDrome(strArr1);
 const result2 = ValidPalinDrome(strArr2);
 const result3 = ValidPalinDrome(strArr3);
+const result4 = ValidPalinDrome(strArr4);
 
 
-console.log(result1,result2,result3)
+
+console.log(result1,result2,result3,result4)
 
 
 
