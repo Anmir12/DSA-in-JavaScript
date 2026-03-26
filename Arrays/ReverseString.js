@@ -5,6 +5,9 @@
 //for example:- (0,n-length-1) ,(1,n.length-2),(2,n.length-3) so it will be likw (i[0], n.length-1-i) ,(i[1], n.length-1-i), (i[2], n.length-1-i)
 
 function ReverseString(str){
+if(!str.length){
+    return false;
+}
  let length = str.length;
  let temp;
  let halfLen = Math.floor(length/2)
