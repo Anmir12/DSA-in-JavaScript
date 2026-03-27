@@ -15,7 +15,7 @@ A comprehensive collection of data structures and algorithms implementations in 
     - Heap
 
 - **Algorithms**
-    - Sorting (Bubble, Quick, Merge, etc.)
+    - Sorting (Bubble, Quick, Merge,etc..,)
     - Searching (Binary, Linear, etc.)
     - Graph Traversal (BFS, DFS)
     - Dynamic Programming
