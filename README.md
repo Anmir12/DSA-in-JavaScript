@@ -12,7 +12,7 @@ A comprehensive collection of data structures and algorithms implementations in 
     - Trees
     - Graphs
     - Hash Tables
-    - Heaps
+    - Heap
 
 - **Algorithms**
     - Sorting (Bubble, Quick, Merge, etc.)
