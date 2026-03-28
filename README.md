@@ -9,7 +9,7 @@ A comprehensive collection of data structures and algorithms implementations in 
     - Linked Lists
     - Stacks data structure 
     - Queues data structure 
-    - Trees
+    - Trees data structure 
     - Graphs
     - Hash Tables
     - Heap
