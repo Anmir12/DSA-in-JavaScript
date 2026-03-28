@@ -7,8 +7,8 @@ A comprehensive collection of data structures and algorithms implementations in 
 - **Data Structures**
     - Arrays
     - Linked Lists
-    - Stacks
-    - Queues
+    - Stacks data structure 
+    - Queues 
     - Trees
     - Graphs
     - Hash Tables
