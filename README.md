@@ -1,4 +1,4 @@
-is# Data Structures & Algorithms Using JavaScript
+# Data Structures & Algorithms Using JavaScript
 
 A comprehensive collection of data structures and algorithms implementations in JavaScript.
 
@@ -11,7 +11,7 @@ A comprehensive collection of data structures and algorithms implementations in 
     - Queues
     - Trees
     - Graphs
-    - Hash Tables
+    - Hash
     - Heap
 
 - **Algorithms**
