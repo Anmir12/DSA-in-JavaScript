@@ -1,4 +1,4 @@
-# Data Structures & Algorithms Using JavaScript
+is# Data Structures & Algorithms Using JavaScript
 
 A comprehensive collection of data structures and algorithms implementations in JavaScript.
 
@@ -47,7 +47,7 @@ Each file contains:
 
 ## Contributing
 
-Feel free to add more algorithms and data structures with clear documentation.
+Feel free to add more algorithms and data structures.
 
 ## License
 
