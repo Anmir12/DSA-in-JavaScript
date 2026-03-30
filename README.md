@@ -36,7 +36,7 @@ node filename.js
 ## Prerequisites
 
 - Node.js installed on your system
-- Basic JavaScript knowledge
+- Basic JavaScript knowledge (es6 bonus)
 
 ## Usage
 
