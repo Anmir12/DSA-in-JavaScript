@@ -18,7 +18,7 @@ A comprehensive collection of data structures and algorithms implementations in 
     - Sorting (Bubble, Quick, Merge,etc..,)
     - Searching (Binary, Linear, etc.)
     - Graph Traversal (BFS, DFS)
-    - Dynamic Programming
+    - Dynamic Programming (DP)
     - Greedy Algorithms
     - Recursion
 
