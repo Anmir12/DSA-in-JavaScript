@@ -7,18 +7,18 @@ A comprehensive collection of data structures and algorithms implementations in 
 - **Data Structures**
     - Arrays
     - Linked Lists
-    - Stacks
-    - Queues
+    - Stacks(arrays)
+    - Queues(arrays)
     - Trees
     - Graphs
-    - Hash Tables
-    - Heaps
+    - Hash
+    - Heap
 
 - **Algorithms**
-    - Sorting (Bubble, Quick, Merge, etc.)
+    - Sorting (Bubble, Quick, Merge,etc..,)
     - Searching (Binary, Linear, etc.)
     - Graph Traversal (BFS, DFS)
-    - Dynamic Programming
+    - Dynamic Programming (DP)
     - Greedy Algorithms
     - Recursion
 
@@ -36,7 +36,7 @@ node filename.js
 ## Prerequisites
 
 - Node.js installed on your system
-- Basic JavaScript knowledge
+- Basic JavaScript knowledge (es6 bonus)
 
 ## Usage
 
@@ -47,7 +47,7 @@ Each file contains:
 
 ## Contributing
 
-Feel free to add more algorithms and data structures with clear documentation.
+Feel free to add more algorithms and data structures.
 
 ## License
 
