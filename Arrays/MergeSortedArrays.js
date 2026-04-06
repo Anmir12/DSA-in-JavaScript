@@ -40,7 +40,7 @@ function mergeSortedArrays(nums1, m, nums2, n) {
   let p2 = 0;
 
   for (let i = 0; i < m + n; i++) {
-    if (nums2.length < 0 || (nums1.length > 0 && nums1Copy[p1] < nums2[p2])) {
+    if (p2 >= n || (p1< m && nums1Copy[p1] < nums2[p2])) {
       nums1[i] = nums1Copy[p1];
 
       p1++;
@@ -53,6 +53,6 @@ function mergeSortedArrays(nums1, m, nums2, n) {
   return nums1;
 }
 
-const result =mergeSortedArrays([1,2,3],3, [2,5,6],3);
+const result =mergeSortedArrays([1],1,[],0);
 
 console.log(result)
